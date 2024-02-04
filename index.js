@@ -1,7 +1,7 @@
 require("dotenv").config();
 const JUGNU = require("./handlers/Client");
 const { TOKEN } = require("./settings/config");
-const { PREFIX } = require("./settings/config");
+
 
 const client = new JUGNU();
 
