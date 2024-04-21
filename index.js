@@ -6,7 +6,7 @@ const { TOKEN } = require("./settings/config");
 const client = new JUGNU();
 
 module.exports = client;
-const mySecret = process.env['TOKEN']
+
 client.start(TOKEN);
 
 process.on("unhandledRejection", (reason, p) => {
